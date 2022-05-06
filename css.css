@@ -1,0 +1,18 @@
+#card_number{
+    color: blue;
+    background-color: brown;
+}
+header h1{
+    background-color: blue;
+    
+}
+h1{
+    padding-top: 10%;
+}
+fieldset{
+    border-radius: 10px;
+    color: brown;
+    legend{
+        color: solid red;
+    }
+}

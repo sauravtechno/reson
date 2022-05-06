@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+   <style>
+       span{
+           float: right;
+       }
+       #res{
+           float:left;
+           text-align: 50%;
+       }
+            
+       section{
+           margin-left: 40%;
+           margin-top: 20px; 
+       }
+       .pankaj{
+           background-color: rgb(48, 213, 23);
+       }
+       .reason{
+           background-color: wheat;
+           
+         
+       }
+       #khata{
+           text-align: center;
+           font-family: cursive;
+       }
+       body{
+           background:url('sm.jpeg');
+       }
+     table,th,tr,td{
+        border: 1px dotted rgb(79, 15, 205);
+        width: 100%;
+         
+   
+    }
+    /* css with element selector*/
+    tr{
+        background-color: blue;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .class1{
+        background-color: chartreuse;
+        border:10px solid red;
+    }
+    #red{
+        background-color: rgb(156, 52, 208);
+        border:100px dotted rgb(6, 143, 207);
+    }
+    </style>
+   
+</head>
+<body>
+   <!---- <table> 
+        <tr>
+            <th>Game</th>
+            <th>Price</th>
+
+        </tr>
+        <tr>
+            <td>50</td>
+            <td>100</td>
+
+        </tr>
+        </table> -->
+        <h1 id="khata"> udhaar khata </h1>
+        <table cellpadding="20px"> 
+        <thead>
+                    <tr>
+                    <th>Month</th>
+                    <th>Debt</th>
+                    <th>Total</th>
+                    </tr>
+                    
+        </thead>
+        <tbody>
+                    <tr>
+                    <td class="reason"><span><img src="dg.jpg" height="50px" width="50px"></span><p>Reason</p></td>
+                    <td class="reason">$100</td>
+                    <td rowspan="2">$180</td>
+                    </tr>
+                    <tr>
+                    <td class="pankaj">Pankaj</td>
+                    <td class="pankaj">$80</td>
+
+                    
+        </tbody> <!-- similarly we can use tfoot also-->
+    </table>
+    <main>
+        <section><img src="ud1.jpg" alt="udhaar" height="50%" width="30%"></section>
+<a href="payment.html">diye gaye link pr jaldi pay kare</a>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Payment page</title>
+    <a href="table.html" target="_blank">
+    <style>
+
+         body{
+           background:url("sm12.jpg");
+        
+       }
+       #address{
+           box-sizing: border-box;
+           background-color: blanchedalmond;
+           margin:auto;
+           
+    
+       }
+       span{
+           color:yellow ;
+       }
+       #sm1{
+           box-sizing: content-box;
+           padding: auto;
+       }
+
+        #card_number{
+            color: rgb(72, 24, 5);
+            background-color: rgb(209, 150, 10);
+        }
+        header h1{
+            background-color: rgb(159, 202, 103);
+            
+        }
+        h1{
+            padding-top: 10%;
+            color: brown;
+        } 
+        p{
+            color:#15f925;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center" ; >Payment Page
+        <br><br><br>
+        
+        </h1>
+    </header>
+    <h1>Payment Information</h1>
+        <form action="" > 
+                <p>Name:* <input type="text" name="name" required></p>
+                <fieldset >
+                    <legend >Gender</legend>
+                    <p>Male<input type="radio" name="gender" id="male"></p>
+                     <p>Female
+                         <input type="radio" name="gender" id="female"></p>   
+                         <p>other
+                            <input type="radio" name="gender" id="Six"></p>   
+                    
+                </fieldset>
+                <span>address:</span>
+                <p id="sm1"></p> <textarea name="address" id="address" cols="50" rows="10" ></textarea></p>
+                <p>Email:*<input type="email" name="email" required></p>
+                <p>Pin Code:*<input type="number" name="pin_code" required></p>
+
+
+
+
+
+        </form>
+    <h1>Card Details</h1>
+   <p>
+       Card type:*
+        <select>
+        <option value="">--enter card detail--</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="VISA">VISA</option>
+        <option value="rupay">rupay</option>
+        <option value="American Express">American Express</option>
+        </select>
+        
+    </p> 
+    <p>Card Number: <input type="number" name="card_number" id="card_number"></p>
+    <p>Expiry Date: <input type="date" name="expiry_date"></p>
+    <p>Cvv: <input type="password" name="card_number"></p>
+    <input type="submit" value="Pay Now">
+    <input type="reset" name="reset">
+    <img src="ud.jpg" alt="not found"></a>
+</body>
+</html>
